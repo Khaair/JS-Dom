@@ -1,17 +1,36 @@
 
-function Student(name,age,cgpa,lang){
-    this.name=name;
-    this.age=age;
-    this.cgpa=cgpa;
-    this.lang=lang;
-}
+// var num1= parseInt(prompt("Enter first number: "))
+// var num2= parseInt(prompt("Enter second number: "))
 
-var student1=new Student("Khair",23,3.25,["Bangla","English"]);
-var student2=new Student("Khair",23,3.25,["Bangla","English"]);
-var student3=new Student("Khair",23,3.25,["Bangla","English"]);
-console.log(student1.name);
-console.log(student2.age);
-console.log(student3.lang);
+// var maximun=Math.max(num1,num2)
+
+// console.log(maximun);
+
+var myVar=document.querySelector("#myImg");
+function myPicture1(){
+ 
+     myVar.src="img/Khair01.png";
+  }
+
+  function myPicture2(){
+  
+    myVar.src="img/Khair02.png";
+    }
+
+
+// function Student(name,age,cgpa,lang){
+//     this.name=name;
+//     this.age=age;
+//     this.cgpa=cgpa;
+//     this.lang=lang;
+// }
+
+// var student1=new Student("Khair",23,3.25,["Bangla","English"]);
+// var student2=new Student("Khair",23,3.25,["Bangla","English"]);
+// var student3=new Student("Khair",23,3.25,["Bangla","English"]);
+// console.log(student1.name);
+// console.log(student2.age);
+// console.log(student3.lang);
 
 
 // var student1={
