@@ -6,16 +6,28 @@
 
 // console.log(maximun);
 
-var myVar=document.querySelector("#myImg");
-function myPicture1(){
- 
-     myVar.src="img/Khair01.png";
-  }
+function addStyle(){
+    var myVar=document.querySelector("#para");
+    myVar.classList.add("paraStyle");
 
-  function myPicture2(){
+}
+
+function removeStyle(){
+  var myVar=document.querySelector("#para");
+  myVar.classList.remove("paraStyle");
+
+}
+
+// var myVar=document.querySelector("#myImg");
+// function myPicture1(){
+ 
+//      myVar.src="img/Khair01.png";
+//   }
+
+//   function myPicture2(){
   
-    myVar.src="img/Khair02.png";
-    }
+//     myVar.src="img/Khair02.png";
+//     }
 
 
 // function Student(name,age,cgpa,lang){
