@@ -5,18 +5,30 @@
 // var maximun=Math.max(num1,num2)
 
 // console.log(maximun);
+document.querySelector("#btnn").addEventListener("click", myfunction);
 
-function addStyle(){
-    var myVar=document.querySelector("#para");
-    myVar.classList.add("paraStyle");
-
+function myfunction(){
+  alert("Hello")
 }
 
-function removeStyle(){
-  var myVar=document.querySelector("#para");
-  myVar.classList.remove("paraStyle");
 
-}
+
+
+
+
+
+
+// function addStyle(){
+//     var myVar=document.querySelector("#para");
+//     myVar.classList.add("paraStyle");
+
+// }
+
+// function removeStyle(){
+//   var myVar=document.querySelector("#para");
+//   myVar.classList.remove("paraStyle");
+
+// }
 
 // var myVar=document.querySelector("#myImg");
 // function myPicture1(){
