@@ -7,9 +7,13 @@
 // console.log(maximun);
 var myVar=document.querySelector("#btnn");
 
-myVar.addEventListener("click", function(){
+myVar.addEventListener("mouseover", function(){
 myVar.classList.add("paraStyle")
 });
+
+myVar.addEventListener("mouseout", function(){
+  myVar.classList.remove("paraStyle")
+  });
 
 
 
