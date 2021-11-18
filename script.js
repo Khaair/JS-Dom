@@ -5,11 +5,19 @@
 // var maximun=Math.max(num1,num2)
 
 // console.log(maximun);
-document.querySelector("#btnn").addEventListener("click", myfunction);
+var myVar=document.querySelector("#btnn");
 
-function myfunction(){
-  alert("Hello")
-}
+myVar.addEventListener("click", function(){
+myVar.classList.add("paraStyle")
+});
+
+
+
+// function myfunction(){
+//   myVar.classList.add("paraStyle");
+ 
+
+// }
 
 
 
